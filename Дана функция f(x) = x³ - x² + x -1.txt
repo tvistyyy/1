@@ -1,0 +1,33 @@
+/*Дана функция f(x) = x³ - x² + x - 1
+Найти значение выражения z = f(2*a) + f(n + c) , где a,b и c вещественные числа 
+#include <bits/stdc++.h>
+
+#include <cmath>
+
+using namespace std;
+
+float f(float x)
+
+4G+
+
+82
+
+return pow(x,3) pow (x,2) + x 1;
+
+3
+
+int main()
+
+float a, b, c, z;
+
+cout << "Введите а, в и с" << endl;
+
+cin >> a >> b >> c;
+
+z = f(2*a) + f (b + c);
+
+3
+
+cout << "z =" << z;
+
+return 0;

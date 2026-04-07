@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+void func(float x, float &p, float&S)
+
+p = 4*x;
+
+S = p*p;
+
+3
+
+int main()
+
+float x, p, S;
+
+65
+
+cout << "Введите значение х: << endl;
+
+cin >> x;
+
+(p› S)? cout <<"р больше": cout <<"ς δ
+
+ольше";
+
+3
+
+return 0;

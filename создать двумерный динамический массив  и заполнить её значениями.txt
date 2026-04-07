@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+int **create (int&n , int&m)
+{
+    cout << "n = , m =";
+    cin >> n >> m;
+    int **mas = new int [n]
+    for (int i ; i < n , ++i)
+    mass[i] = new int [m];
+    for (int i ; i < n , ++i)
+    for (int j ; j < m , ++j)
+{   cout << "mas ["<< i <<"]" << "[" << j
+<<"]"=;
+}   cin >> mas [i][j];
+return mas;}

@@ -1,0 +1,37 @@
+print ("- Калькулятор -")
+
+print ("Доступные операции:")
+
+print ("+: сложение")
+
+print ("-: вычитание")
+
+print ("* : умножение")
+
+print("/: деление")
+
+print ()
+
+try:
+
+num1 = float(input("Введите первое число"))
+
+num2 = float(input("Введите второе число"))
+
+operation = input("Выберите операц ию (+, ,*,/)")
+
+if operation == '+':
+
+result = num1 + num2
+
+") print(f"{num1} + {num2} = {result}
+
+elif operation == '-':
+
+result = num1 num2
+
+print(f"{num1} - {num2} = {result}
+
+")
+
+elif operation == '*':
