@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x, y;
+    
+    cout << "Введите координаты точки (x y): ";
+    cin >> x >> y;
+    
+    double right_border = -fabs(x);
+    
+    bool onBorder = (fabs(y - right_border) < 1e-9);
+    
+    bool inside = (y < right_border);
+    
+    if (onBorder) {
+        cout << "На границе" << endl;
+    } else if (inside) {
+        cout << "Да" << endl;
+    } else {
+        cout << "Нет" << endl;
+    }
+    
+    return 0;
+}
