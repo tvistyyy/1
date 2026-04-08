@@ -1,0 +1,46 @@
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    std::cout << "Способ 1: цикл for\n";
+    for (int i = 25; i <= 35; ++i) {
+        std::cout << std::fixed << std::setprecision(1)
+                  << i << "   "
+                  << i + 0.5 << "   "
+                  << i - 0.2 << "\n";
+    }
+    return 0;
+}
+      
+#include <iostream>
+#include <iomanip>
+
+int main() 
+    {
+    std::cout << "Способ 2: цикл while\n";
+    int i = 25;
+    while (i <= 35) {
+        std::cout << std::fixed << std::setprecision(1)
+                  << i << "   "
+                  << i + 0.5 << "   "
+                  << i - 0.2 << "\n";
+        ++i;
+    }
+    return 0;
+} 
+
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    std::cout << "Способ 3: цикл do while\n";
+    int i = 25;
+    do {
+        std::cout << std::fixed << std::setprecision(1)
+                  << i << "   "
+                  << i + 0.5 << "   "
+                  << i - 0.2 << "\n";
+        ++i;
+    } while (i <= 35);
+    return 0;
+}
