@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 int main() {
-    std::cout << "Способ 1: цикл for";
+    std::cout << "цикл for";
     for (int i = 25; i <= 35; ++i) {
         std::cout << std::fixed << std::setprecision(1)
                   << i << "   "
@@ -15,7 +15,7 @@ int main() {
 #include <iomanip>
 int main() 
     {
-    std::cout << "Способ 2: цикл while";
+    std::cout << "цикл while";
     int i = 25;
     while (i <= 35) {
         std::cout << std::fixed << std::setprecision(1)
@@ -30,7 +30,7 @@ int main()
 #include <iostream>
 #include <iomanip>
 int main() {
-    std::cout << "Способ 3: цикл do while";
+    std::cout << "цикл do while";
     int i = 25;
     do {
         std::cout << std::fixed << std::setprecision(1)
